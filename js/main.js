@@ -26,53 +26,113 @@ const preguntas = [
     {
         pregunta: "¿Qué hoja representa a Canadá?",
         opciones: [
-            "Hoja de pino",
-            "Hoja de roble",
-            "Hoja de olivo",
-            "Hoja de arce"
+        {
+            texto: "Hoja de Pino",
+            imagen: "./Img/pregunta2/opcion-a.png"
+        },
+        {
+            texto: "Hoja de Roble",
+            imagen: "./Img/pregunta2/opcion-b.png"
+        },
+        {
+            texto: "Hoja de Olivo",
+            imagen: "./Img/pregunta2/opcion-c.png"
+        },
+        {
+            texto: "Hola de Arce",
+            imagen: "./Img/pregunta2/opcion-d.png"
+        },
         ],
         correcta: 3
     },
 
     {
-        pregunta: "¿Cuál es la bandera de Canadá?",
-        opciones: [
-            "Bandera de Canadá",
-            "Bandera de Estados Unidos",
-            "Bandera de México",
-            "Bandera de Brasil"
+    pregunta: "¿Cuál es la bandera de Canadá?",
+    opciones: [
+        {
+            texto: "Bandera de Canadá",
+            imagen: "./Img/pregunta3/opcion-a.png"
+        },
+        {
+            texto: "Bandera de Estados Unidos",
+            imagen: "./Img/pregunta3/opcion-b.png"
+        },
+        {
+            texto: "Bandera de México",
+            imagen: "./Img/pregunta3/opcion-c.png"
+        },
+        {
+            texto: "Bandera de Japón",
+            imagen: "./Img/pregunta3/opcion-d.png"
+        }
         ],
         correcta: 0
     },
 
-    {
-        pregunta: "¿Cuántas mascotas representan a los países anfitriones del Mundial 2026?",
-        opciones: [
-            "1 mascota",
-            "2 mascotas",
-            "3 mascotas",
-            "4 mascotas"
-        ],
-        correcta: 2
-    },
+   {
+    pregunta: "¿Cuántas mascotas representan a los países anfitriones del Mundial 2026?",
+    opciones: [
+        {
+            texto: "1 mascota",
+            imagen: "./Img/pregunta4/opcion-a.png"
+        },
+        {
+            texto: "2 mascotas",
+            imagen: "./Img/pregunta4/opcion-b.png"
+        },
+        {
+            texto: "3 mascotas",
+            imagen: "./Img/pregunta4/opcion-c.png"
+        },
+        {
+            texto: "4 mascotas",
+            imagen: "./Img/pregunta4/opcion-d.png"
+        }
+    ],
+    correcta: 2
+},
 
     {
-        pregunta: "¿Qué animales representan a los tres países anfitriones?",
-        opciones: [
-            "León, Tigre y Oso",
-            "Alce, Jaguar y Águila",
-            "Panda, Koala y Canguro",
-            "Lobo, Zorro y Conejo"
-        ],
-        correcta: 1
-    },
+    pregunta: "¿Qué animales representan a los tres países anfitriones?",
+    opciones: [
+        {
+            texto: "León, Tigre y Oso",
+            imagen: "./Img/pregunta5/opcion-a.png"
+        },
+        {
+            texto: "Alce, Jaguar y Águila",
+            imagen: "./Img/pregunta5/opcion-b.png"
+        },
+        {
+            texto: "Panda, Koala y Canguro",
+            imagen: "./Img/pregunta5/opcion-c.png"
+        },
+        {
+            texto: "Lobo, Zorro y Conejo",
+            imagen: "./Img/pregunta5/opcion-d.png"
+        }
+    ],
+    correcta: 1
+},
 {
     pregunta: "¿Qué mascota representa a Estados Unidos?",
     opciones: [
-        "Águila calva",
-        "Alce",
-        "Jaguar",
-        "Lobo"
+        {
+            texto: "Águila",
+            imagen: "./Img/pregunta6/opcion-a.png"
+        },
+        {
+            texto: "Alce",
+            imagen: "./Img/pregunta6/opcion-b.png"
+        },
+        {
+            texto: "Jaguar",
+            imagen: "./Img/pregunta6/opcion-c.png"
+        },
+        {
+            texto: "Lobo",
+            imagen: "./Img/pregunta6/opcion-d.png"
+        }
     ],
     correcta: 0
 },
@@ -80,10 +140,22 @@ const preguntas = [
 {
     pregunta: "¿Qué mascota representa a Canadá?",
     opciones: [
-        "Jaguar",
-        "Águila calva",
-        "Alce",
-        "Mapache"
+        {
+            texto: "Jaguar",
+            imagen: "./Img/pregunta7/opcion-a.png"
+        },
+        {
+            texto: "Águila",
+            imagen: "./Img/pregunta7/opcion-b.png"
+        },
+        {
+            texto: "Alce",
+            imagen: "./Img/pregunta7/opcion-c.png"
+        },
+        {
+            texto: "Mapache",
+            imagen: "./Img/pregunta7/opcion-d.png"
+        }
     ],
     correcta: 2
 },
@@ -91,35 +163,71 @@ const preguntas = [
 {
     pregunta: "¿Qué mascota representa a México?",
     opciones: [
-        "Lobo",
-        "Alce",
-        "Águila calva",
-        "Jaguar"
+        {
+            texto: "Águila",
+            imagen: "./Img/pregunta8/opcion-a.png"
+        },
+        {
+            texto: "Alce",
+            imagen: "./Img/pregunta8/opcion-b.png"
+        },
+        {
+            texto: "Mapache",
+            imagen: "./Img/pregunta8/opcion-c.png"
+        },
+        {
+            texto: "Jaguar",
+            imagen: "./Img/pregunta8/opcion-d.png"
+        }
     ],
     correcta: 3
 },
 
-    {
-        pregunta: "¿Cuál es el mapa de México?",
-        opciones: [
-            "Mapa de Argentina",
-            "Mapa de México",
-            "Mapa de España",
-            "Mapa de Brasil"
-        ],
-        correcta: 1
-    },
+  {
+    pregunta: "¿Cuál es el mapa de México?",
+    opciones: [
+        {
+            texto: "Argentina",
+            imagen: "./Img/pregunta9/opcion-a.png"
+        },
+        {
+            texto: "México",
+            imagen: "./Img/pregunta9/opcion-b.png"
+        },
+        {
+            texto: "España",
+            imagen: "./Img/pregunta9/opcion-c.png"
+        },
+        {
+            texto: "Brasil",
+            imagen: "./Img/pregunta9/opcion-d.png"
+        }
+    ],
+    correcta: 1
+},
 
-    {
-        pregunta: "¿Qué representa el Mundial?",
-        opciones: [
-            "Solo fútbol",
-            "Solo competencia",
-            "Solo entretenimiento",
-            "La unión entre culturas y países"
-        ],
-        correcta: 3
-    }
+  {
+    pregunta: "¿Qué representa el Mundial?",
+    opciones: [
+        {
+            texto: "Solo fútbol",
+            imagen: "./Img/pregunta10/opcion-a.png"
+        },
+        {
+            texto: "Solo competencia",
+            imagen: "./Img/pregunta10/opcion-b.png"
+        },
+        {
+            texto: "Solo entretenimiento",
+            imagen: "./Img/pregunta10/opcion-c.png"
+        },
+        {
+            texto: "La unión entre culturas y países",
+            imagen: "./Img/pregunta10/opcion-d.png"
+        }
+    ],
+    correcta: 3
+},
 
 ];
 
