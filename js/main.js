@@ -5,19 +5,19 @@ const preguntas = [
     opciones: [
         {
             texto: "Argentina, Brasil y Uruguay",
-            imagen: "./img/pregunta1/opcion-a.png"
+            imagen: "./Img/pregunta1/opcion-a.png"
         },
         {
             texto: "México, Estados Unidos y Canadá",
-            imagen: "./img/pregunta1/opcion-b.png"
+            imagen: "./Img/pregunta1/opcion-b.png"
         },
         {
             texto: "España, Francia e Italia",
-            imagen: "./img/pregunta1/opcion-c.png"
+            imagen: "./Img/pregunta1/opcion-c.png"
         },
         {
             texto: "Chile, Perú y Bolivia",
-            imagen: "./img/pregunta1/opcion-d.png"
+            imagen: "./Img/pregunta1/opcion-d.png"
         }
     ],
     correcta: 1
