@@ -91,8 +91,8 @@ button {
 .pantalla-preguntas {
     min-height: 100vh;
     height: 100vh;
-    padding: 15px;
-    overflow: hidden;
+    padding: 10px;
+    overflow-y: auto;
 
     background:
         url("../Img/preguntas.webp");
@@ -143,7 +143,7 @@ button {
 }
 
 .pregunta-card {
-    padding: 35px;
+    padding: 14px;
     border-radius: 24px;
     background-color: rgba(255, 255, 255, 0.95);
     color: #071b2c;
@@ -151,8 +151,8 @@ button {
 }
 
 #pregunta {
-    margin-bottom: 15px;
-    font-size: 22px;
+    margin-bottom: 10px;
+    font-size: 20px;
     line-height: 1.2;
 }
 
@@ -163,14 +163,15 @@ button {
 }
 
 .opcion {
-    padding: 6px;
+    padding: 0;
     border: 2px solid #d6d6d6;
     border-radius: 18px;
+    overflow: hidden;
 
     display: flex;
     flex-direction: column;
 
-    height: 180px;
+    height: 150px;
 }
 
 .opcion:hover {
@@ -208,7 +209,7 @@ button {
 .opcion img {
 
     width: 100%;
-    height: 150px;
+    height: 100%;
     object-fit: contain;
     margin: 0;
 
@@ -220,6 +221,10 @@ button {
 
 }
 
+#btn-siguiente {
+    margin-top: 8px;
+    padding: 9px 24px;
+}
 
 
 /* ========================= */
