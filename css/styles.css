@@ -48,7 +48,7 @@ button {
 .pantalla-bienvenida {
     min-height: 100vh;
     background-image:
-        url("../Img/bienvenido.png");
+        url("../Img/bienvenido.webp");
     background-size: cover;
     background-position: center;
 }
@@ -92,7 +92,7 @@ button {
     min-height: 100vh;
     padding: 35px 20px;
     background:   
-        url("../Img/preguntas.png");
+        url("../Img/preguntas.webp");
     background-size: cover;
     background-position: center;
 }
@@ -242,7 +242,7 @@ button {
     align-items: center;
     padding: 30px;
     background:
-        url("../Img/final.png");
+        url("../Img/final.webp");
     background-size: cover;
     background-position: center;
 }
@@ -304,3 +304,31 @@ button {
         text-align: center;
     }
 }
+
+.footer {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: #1d4052;
+    color: white;
+    line-height: 1.6;
+}
+
+.footer::before {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: #72a3bf;
+    margin: 0 auto 15px auto;
+}
+
+/* .footer {
+    margin-top: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color: #1d4052;
+    color: white;
+    font-size: 0.95rem;
+    line-height: 1.6;
+} */
